@@ -6,6 +6,7 @@ public class ClaseSegunda {
 	public ClaseSegunda(int numDos) {
 		super();
 		this.numDos = numDos;
+		ClasePrimera clasePrimera= new ClasePrimera(2, 6);
 	}
 
 	public int getNumDos() {
